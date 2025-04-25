@@ -1,6 +1,9 @@
 # VAPT
 VAPT
 
+# John the Ripper
+https://www.stationx.net/how-to-use-hydra/
+
 # netdiscover
 Command | Explanation
 
