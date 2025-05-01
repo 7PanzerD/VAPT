@@ -20,3 +20,22 @@ sudo netdiscover -r 192.168.1.0/24 > output.txt | Saves scan results to a text f
 sudo netdiscover -s | Continuously scans and updates live devices in real-time.
 
 sudo netdiscover -p | Passive mode: silently listens to ARP traffic without sending packets.
+
+# Phishing
+Subject: [Action Required] System Security Update – Verify Your Account
+
+Dear [Employee Name],
+
+As part of our institution's routine security maintenance, we are rolling out an update to the internal login portal. To ensure uninterrupted access, all users are required to re-authenticate their credentials.
+
+Please verify your account by visiting the secure portal at the link below:
+
+https://institution-login-verification.example.com
+
+This must be completed by 6:00 PM today to prevent temporary access restrictions.
+
+Thank you for your prompt attention.
+
+Sincerely,
+IT Support Team
+[Institution Name]
