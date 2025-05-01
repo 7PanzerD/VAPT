@@ -103,10 +103,8 @@ IT Support Team
 
 
 
-
+________________________
 
 
 
 \\\10.125.100.100    
-
-Then Backups Folder
