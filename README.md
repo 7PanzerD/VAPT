@@ -172,7 +172,3 @@ python3 office2john.py <Document.extension > = Password hash
 ________________________
 
 
-
-\\\10.125.100.100    
-
-The key to vapt docx is : PwD#2424
